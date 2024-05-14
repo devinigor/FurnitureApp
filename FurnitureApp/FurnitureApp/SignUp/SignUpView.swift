@@ -82,7 +82,7 @@ struct SignUpView: View {
                 focused = 2
             })
             .onChange(of: numberPhoneTextField, perform: { oldValue in
-                numberPhoneTextField = sigUpViewModel.format(with: "+X (XXX) XXX-XX-XX", phone: oldValue)
+                numberPhoneTextField =  sigUpViewModel.format(with: "+X (XXX) XXX-XX-XX", phone: oldValue)
                 if numberPhoneTextField.count == 18 {
                     focused = 2
                 }
