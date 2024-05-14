@@ -8,7 +8,7 @@
 import Foundation
 
 /// Модель для товара
-struct ItemsModel: Hashable{
+struct ItemsModel: Hashable {
     let id = UUID()
     ///Картинка
     let image: String

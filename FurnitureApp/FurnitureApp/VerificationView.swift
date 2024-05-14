@@ -87,7 +87,7 @@ struct VerificationView: View {
                     .onChange(of: textFieldTwo, { oldValue, newValue in
                         if (newValue.count == 1) {
                             pinFocusState = .pinThree
-                        }else {
+                        } else {
                             if (newValue.count == 0) {
                                 pinFocusState = .pinOne
                             }

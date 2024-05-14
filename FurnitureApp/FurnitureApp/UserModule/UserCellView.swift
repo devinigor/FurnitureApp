@@ -33,5 +33,5 @@ struct SetinsUserCellView: View {
 }
 
 #Preview {
-    SetinsUserCellView(settingsModel: .init(title: "Sity", icon: "envelope", notification: 3))
+    SetinsUserCellView(settingsModel: .init(title: "City", icon: "envelope", notification: 3))
 }

@@ -69,10 +69,12 @@ struct FilterView: View {
     private var titleView: some View {
         HStack {
             Text("Category")
+                .padding()
                 .font(.title.bold())
                 .foregroundColor(.black.opacity(0.6))
             Spacer()
             Text("More >")
+                .padding()
                 .font(.title.bold())
                 .foregroundColor(.black.opacity(0.4))
         }
@@ -102,6 +104,7 @@ struct FilterView: View {
         VStack {
             HStack{
                 Text(colorSelected)
+                    .padding()
                     .font(.title.bold())
                     .foregroundColor(.black.opacity(0.6))
                 Spacer()
@@ -128,6 +131,7 @@ struct FilterView: View {
          VStack(spacing: 0) {
              HStack {
                  Text("Prices")
+                     .padding()
                      .font(.title.bold())
                      .foregroundColor(.black.opacity(0.6))
               Spacer()
